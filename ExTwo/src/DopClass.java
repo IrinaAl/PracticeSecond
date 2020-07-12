@@ -2,7 +2,7 @@
 
 
 
-//абстрактный класс, подходящий как для работы с письмами (String), так и с зарплатами(Integer)
+//абстрактный generic класс, подходящий как для работы с письмами (String), так и с зарплатами(Integer)
 public abstract class DopClass<T> {
 
     private String sender; //отправитель
